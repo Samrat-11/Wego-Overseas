@@ -1,0 +1,22 @@
+:root {
+    --bs-primary: #0077B6; /* Vibrant Ocean Blue */
+    --bs-secondary: #F25C05; /* Warm Sunset Orange */
+    --bs-light: #F5F9FC; /* Soft Sky White */
+    --bs-dark: #1B1B1B; /* Deep Charcoal */
+    --bs-body-color: #5E6E77; /* Muted Blue-Gray */
+  
+    --bs-font-sans-serif: "system-ui", "apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-headings-font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  body {
+    font-family: var(--bs-font-sans-serif);
+    color: var(--bs-body-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--bs-headings-font-family);
+    font-weight: 500;
+    color: var(--bs-dark);
+  }
+  
