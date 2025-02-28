@@ -179,7 +179,8 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    
+    position: fixed !important;
+    z-index: 1000;
 }
 
 .logo-container {
@@ -188,7 +189,7 @@ nav {
 }
 
 .logo-container img {
-    height: 50px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
     margin-right: 0px;
 }
 
@@ -230,6 +231,7 @@ nav {
 .sticky-top .navbar-light .navbar-nav .nav-link {
     padding: 10px 0;
     color: var(--bs-primary) !important;
+    
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
