@@ -25,11 +25,7 @@
         }
     });
 
-    // Facts counter
-    // $('[data-toggle="counter-up"]').counterUp({
-    //     delay: 5,
-    //     time: 2000
-    // });
+   
 
 
     // Modal Video
@@ -136,7 +132,7 @@ contactMeForm.addEventListener('submit', event => {
   const encodedText = encodeURIComponent(messageText);
 
   // Replace with your WhatsApp number (with country code)
-  const whatsappNumber = "+918247634398"; // Example WhatsApp number
+  const whatsappNumber = "+91970017726"; // Example WhatsApp number
 
   // Create the WhatsApp URL
   const url = `https://wa.me/${whatsappNumber}?text=${encodedText}`;

@@ -189,7 +189,7 @@ nav {
 }
 
 .logo-container img {
-    height: 60px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
     margin-right: 0px;
 }
 
@@ -197,6 +197,9 @@ nav {
 @media (min-width: 768px) {
     .menu-toggle {
         display: none;
+    }
+    .sub-heading{
+        font-size: 0px;
     }
 }
 .navbar{
@@ -207,9 +210,9 @@ nav {
 .heading {
     font-family: "Dancing Script", serif !important;
     font-optical-sizing: auto;
-    font-weight: 700 !important;
+    font-weight: 800 !important;
     color: var(--bs-secondary) !important;
-    font-size: 35px !important;
+    font-size: 40px !important;
     font-style: normal;
 
 }
@@ -268,6 +271,10 @@ nav {
         transition: .5s;
         opacity: 0;
     }
+    .sub-heading{
+        font-size: 40px;
+    }
+    
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -310,6 +317,9 @@ nav {
     .navbar-light .navbar-brand img {
         max-height: 100px;
     }
+    .sub-heading{
+        font-size: 0px;
+    }
 }
 
 @media (min-width: 991px) {
@@ -318,18 +328,6 @@ nav {
     }
 } 
 /*** Navbar End ***/
-
-
-/*** Single Page Hero Header Start ***/
-/* .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url(../img/breadcrumb.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-size: cover;
-    padding: 100px 0 60px 0;
-} */
-/*** Single Page Hero Header End ***/
 
 
 /*** Carousel Hero Header Start ***/
@@ -776,9 +774,9 @@ nav {
 .copyright-small{
     background: var(--bs-secondary) !important;
     color: var(--bs-white) !important;
-    font-size: 10px;
-    padding: 10px 0;
-    text-align: center;
+    font-size: 20px;
+    padding: 0px 0;
+    /* text-align: center; */
 }
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
