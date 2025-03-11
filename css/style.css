@@ -188,10 +188,7 @@ nav {
     align-items: center;
 }
 
-.logo-container img {
-    height: 68px; /* Adjust as needed */
-    margin-right: 0px;
-}
+
 
 /* Hide menu for larger screens */
 @media (min-width: 768px) {
@@ -200,6 +197,10 @@ nav {
     }
     .sub-heading{
         font-size: 0px;
+    }
+    .logo-container img {
+        height: 65px; /* Adjust as needed */
+        margin-right: 0px;
     }
 }
 .navbar{
@@ -274,7 +275,10 @@ nav {
     .sub-heading{
         font-size: 40px;
     }
-    
+    .logo-container img {
+        height: 70px; /* Adjust as needed */
+        margin-right: 0px;
+    }
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -319,6 +323,10 @@ nav {
     }
     .sub-heading{
         font-size: 0px;
+    }
+    .logo-container img {
+        height: 65px; /* Adjust as needed */
+        margin-right: 0px;
     }
 }
 
