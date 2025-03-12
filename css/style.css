@@ -341,8 +341,8 @@ nav {
 /*** Carousel Hero Header Start ***/
 .carousel-header .carousel-control-prev .carousel-control-prev-icon,
 .carousel-header .carousel-control-next .carousel-control-next-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     margin-left: -65px;
     border-radius: 50%;
     background-size: 50% 50%;
@@ -365,7 +365,7 @@ nav {
 .carousel-header .carousel .carousel-indicators li {
     width: 8px;
     height: 8px;
-    border: 5px solid var(--bs-secondary);
+    border: 2px solid var(--bs-secondary);
     border-radius: 50%;
     margin-right: 30px;
     transition: 0.5s;
@@ -374,7 +374,7 @@ nav {
 .carousel-header .carousel .carousel-indicators li.active {
     width: 8px;
     height: 8px;
-    border: 8px solid var(--bs-secondary);
+    border: 5px solid var(--bs-secondary);
 }
 
 .carousel-header .carousel-inner .carousel-item {

@@ -119,10 +119,10 @@ contactMeForm.addEventListener('submit', event => {
     messageText += ` My phone number is ${phone}.`;
   }
   if (project) {
-    messageText += ` I would like to discuss with you regarding a visa and its details are as follows:\n ${project}.`;
+    messageText += ` I would like to discuss visa options with you, as I'm interested in travelling to \n ${project}.`;
   }
   if (subject) {
-    messageText += `\n Subject: ${subject}.`;
+    messageText += `\n for the purpose of ${subject}.`;
   }
   if (message) {
     messageText += `\n Also, please find my comments as follows:\n ${message}`;
