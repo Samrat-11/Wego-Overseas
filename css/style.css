@@ -609,12 +609,19 @@ nav {
 
 .country .country-item .country-name {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
+    right: -35% !important;
     transform: translate(-50%, -50%);
     transition: 0.5s;
     opacity: 0;
     z-index: 3;
+    font-size: 15px;
+    
+    
+}
+.country-heading {
+    text-align: center !important;
 }
 
 .country .country-item:hover .country-name {
