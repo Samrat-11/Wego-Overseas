@@ -211,9 +211,9 @@ nav {
 .heading {
     font-family: "Dancing Script", serif !important;
     font-optical-sizing: auto;
-    font-weight: 800 !important;
+    font-weight: 750 !important;
     color: var(--bs-secondary) !important;
-    font-size: 38px !important;
+    font-size: 35px !important;
     font-style: normal;
 
 }
